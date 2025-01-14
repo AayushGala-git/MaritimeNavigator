@@ -1,0 +1,97 @@
+{
+    "ground_station_address": "127.0.0.1:8080",
+    "satellites": [
+        {
+            "id": "Satellite-1",
+            "port": 8001,
+            "neighbors": [
+                {
+                    "id": "Satellite-2",
+                    "latency": 50,
+                    "packet_loss": 0.1
+                },
+                {
+                    "id": "Satellite-3",
+                    "latency": 70,
+                    "packet_loss": 0.15
+                }
+            ]
+        },
+        {
+            "id": "Satellite-2",
+            "port": 8002,
+            "neighbors": [
+                {
+                    "id": "Satellite-1",
+                    "latency": 50,
+                    "packet_loss": 0.1
+                },
+                {
+                    "id": "Satellite-4",
+                    "latency": 40,
+                    "packet_loss": 0.05
+                }
+            ]
+        },
+        {
+            "id": "Satellite-3",
+            "port": 8003,
+            "neighbors": [
+                {
+                    "id": "Satellite-1",
+                    "latency": 70,
+                    "packet_loss": 0.15
+                },
+                {
+                    "id": "Satellite-5",
+                    "latency": 60,
+                    "packet_loss": 0.1
+                }
+            ]
+        },
+        {
+            "id": "Satellite-4",
+            "port": 8004,
+            "neighbors": [
+                {
+                    "id": "Satellite-2",
+                    "latency": 40,
+                    "packet_loss": 0.05
+                },
+                {
+                    "id": "Satellite-5",
+                    "latency": 30,
+                    "packet_loss": 0.2
+                }
+            ]
+        },
+        {
+            "id": "Satellite-5",
+            "port": 8005,
+            "neighbors": [
+                {
+                    "id": "Satellite-3",
+                    "latency": 60,
+                    "packet_loss": 0.1
+                },
+                {
+                    "id": "Satellite-4",
+                    "latency": 30,
+                    "packet_loss": 0.2
+                }
+            ]
+        }
+    ],
+    "vessels": [
+        { "id": "Vessel-1", "satellite": "Satellite-1" },
+        { "id": "Vessel-2", "satellite": "Satellite-1" },
+        { "id": "Vessel-3", "satellite": "Satellite-2" },
+        { "id": "Vessel-4", "satellite": "Satellite-2" },
+        { "id": "Vessel-5", "satellite": "Satellite-3" },
+        { "id": "Vessel-6", "satellite": "Satellite-3" },
+        { "id": "Vessel-7", "satellite": "Satellite-4" },
+        { "id": "Vessel-8", "satellite": "Satellite-4" },
+        { "id": "Vessel-9", "satellite": "Satellite-5" },
+        { "id": "Vessel-10", "satellite": "Satellite-5" }
+    ]
+}
