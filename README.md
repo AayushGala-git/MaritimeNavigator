@@ -1,7 +1,4 @@
-# Project3
-
-## Overview
-MaritimeNavigator 🌊⚓
+## MaritimeNavigator 🌊⚓
 
 MaritimeNavigator is a robust and scalable solution for tracking and managing maritime operations. Designed using modern technologies, this project aims to streamline vessel tracking, optimize routes, and enhance overall maritime logistics.
 
