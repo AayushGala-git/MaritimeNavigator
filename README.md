@@ -2,31 +2,31 @@
 
 MaritimeNavigator is a robust and scalable solution for tracking and managing maritime operations. Designed using modern technologies, this project aims to streamline vessel tracking, optimize routes, and enhance overall maritime logistics.
 
-🚀 Features
+## 🚀 Features
 	•	Real-Time Tracking: Monitor the location and status of vessels in real-time.
 	•	Modular Design: A clean and extensible architecture with modular components (api, cmd, pkg).
 	•	Configuration Flexibility: Easily customizable through config.json and database.json files.
 	•	Scalable Architecture: Built with Go (Golang), ensuring high performance and scalability.
 	•	API-Driven: RESTful API endpoints for seamless integration with external systems.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 	•	Programming Language: Go (Golang)
 	•	Configuration Management: JSON-based configuration
 	•	Backend Architecture: Modularized structure for maintainability and scalability
 
-🌍 Use Cases
+## 🌍 Use Cases
 	•	Maritime Logistics: Efficiently manage shipping routes and optimize operations.
 	•	Fleet Management: Track multiple vessels in a fleet with detailed analytics.
 	•	Port Operations: Enhance port activities by monitoring incoming and outgoing vessels.
 	•	Environmental Monitoring: Use for tracking vessels in ecologically sensitive areas.
 
-🏗️ Future Enhancements
+## 🏗️ Future Enhancements
 	•	Real-time analytics and alerts for abnormal vessel behavior.
 	•	Integration with weather APIs to provide route recommendations.
 	•	Dashboard for visualizing vessel locations and statistics.
 	•	Machine learning integration for predictive analytics.
 
-📜 License
+## 📜 License
 
 This project is licensed under MIT License – feel free to use and modify it as per your needs.
 
